@@ -1,50 +1,54 @@
 
 
-
-/*
+////////////////////////////////////
+// 1) Tasks Video
+////////////////////////////////////
 
 ////////////////////////////////////
     // Comparison && Logical Operator
 ////////////////////////////////////
-console.log(100 == "100"); 
-console.log(100 < 1000); 
-console.log(110 > 100 && 10 < 20); 
-console.log(-10 !== "-10"); 
-console.log(!-50 != +"-40"); 
-console.log(!10 <= -"-40"); 
-console.log(!"10" < 10); 
-console.log(!20 === false);
 
-//////////////////////////////////
+/* 1)
+    console.log(100 == "100"); 
+    console.log(100 < 1000); 
+    console.log(110 > 100 && 10 < 20); 
+    console.log(-10 !== "-10"); 
+    console.log(!-50 != +"-40"); 
+    console.log(!10 <= -"-40"); 
+    console.log(!"10" < 10); 
+    console.log(!20 === false);
+*/
 
-let num1 = 10;
-let num2 = 20;
+/* 2)
+    let num1 = 10;
+    let num2 = 20;
 
-console.log(num1 < num2); // true
-console.log(num1 <= num2); // true
-console.log(num2 > num1); // true
-console.log(num2 >= num1); // true
-console.log(num1 != num2); // true
-console.log(num1 !== num2); // true
-console.log(! (num1 == num2)); // true
-console.log(!(num1 === num2)); // true
-console.log(!(num1 > num2)); // true
+    console.log(num1 < num2); // true
+    console.log(num1 <= num2); // true
+    console.log(num2 > num1); // true
+    console.log(num2 >= num1); // true
+    console.log(num1 != num2); // true
+    console.log(num1 !== num2); // true
+    console.log(! (num1 == num2)); // true
+    console.log(!(num1 === num2)); // true
+    console.log(!(num1 > num2)); // true
+*/
 
-//////////////////////////////////////
+/* 3)
+    let a = 20;
+    let b = 30;
+    let c = 10;
 
-let a = 20;
-let b = 30;
-let c = 10;
-
-console.log(a < b && a > c || a <= b); // true
-console.log(a != b && a !== c); // true
-console.log(!(a > b) && !(a === b) && !(a < c) && !(a == c)); // true
+    console.log(a < b && a > c || a <= b); // true
+    console.log(a != b && a !== c); // true
+    console.log(!(a > b) && !(a === b) && !(a < c) && !(a == c)); // true
+*/
 
 ////////////////////////////////////
  // if Condition //
 ////////////////////////////////////
- // 1) Task if Condition Video (37)
-////////////////////////////////////
+
+/* 1)
     let a = 40.5;
 
     console.log(
@@ -53,36 +57,50 @@ console.log(!(a > b) && !(a === b) && !(a < c) && !(a == c)); // true
         : a > 40 ? "> 40"
         : "Unknown"
     );
+*/
 
-////////////////////////////////////
-let st = "Elzero Web School";
+/* 2)
+    let st = "Elzero Web School";
 
-console.log((st.length * 2).toString() === "34" ? "Good 34" : "Failer");
+    console.log((st.length * 2).toString() === "34" ? "Good 34" : "Failer");
+*/
 
-////////////////////////////////////
+/* 3)
+    console.log(
+        st[st.toLowerCase().indexOf('w')].toLowerCase() === "w" 
+        ? "Good W" 
+        : undefined
+    );
+*/
 
-console.log(
-    st[st.toLowerCase().indexOf('w')].toLowerCase() === "w" 
-    ? "Good W" 
-    : undefined
-)
-
-////////////////////////////////////
+/* 4)
 
 console.log(typeof(st.length) !== 'string' ? "good" : "Failer");
 
-////////////////////////////////////
+*/
+
+/* 5)
 
 console.log(typeof(st.length) === 'number' ? "good" : "Failer");
 
-////////////////////////////////////
+*/
+
+/* 6)
 
 console.log(st.slice(0, 6).repeat(2) === 'ElzeroElzero' ? "Good" : "Failer");
+
+*/
+
 
 ////////////////////////////////////
 // 2) Assignments Website
 ////////////////////////////////////
 
+////////////////////////////////////
+ // if Condition //
+////////////////////////////////////
+
+/* 1)
     let num = 101;
 
     console.log(
@@ -94,9 +112,9 @@ console.log(st.slice(0, 6).repeat(2) === 'ElzeroElzero' ? "Good" : "Failer");
             ? num
         : "failer"
     );
+*/
 
-////////////////////////////////////
-
+/* 2)
 let num1 = 9;
 let str = "9";
 let str2 = "20";
@@ -117,8 +135,9 @@ console.log(
     ? "{str} Is The Same Type As {str2} But Not The Same Value" 
     : "Failer"
 )
-////////////////////////////////////
+*/
 
+/* 3)
 let num1 = 10;
 let num2 = 30;
 let num3 = "30";
@@ -130,9 +149,9 @@ if ((num3 > num1) && (num1 !== num3) && (num3 > num1) && (num3 == num2) && (num3
 {num3} Value And Type Is Not The Same As {num1} And Type Is Not The Same As {num2}`
     )
 }
+*/
 
-////////////////////////////////////
-
+/* 4)
 // Edit What You Want Here
 
 let num1 = 10;
@@ -140,13 +159,12 @@ let num2 = 0 ?? 10;
 let num3 = +"10";
 let num4 = 20 + 21;
 
-/*
-    Do Not Edit Below This Line
-    Needed Output
-    True 7 Times
-*/
 
-/*
+//Do Not Edit Below This Line
+//Needed Output
+//True 7 Times
+
+
 // Condition 1
 
 if (num1 > num2) {
@@ -202,11 +220,13 @@ if (num4 - (num1 + num3) + num2 === 21) {
 } else {
     console.log("False");
 }
+*/
 
 ////////////////////////////////////
     // Switch Statement
 ////////////////////////////////////
 
+/* 1)
 let job = "Support", salary = 0;
 
 switch(job){
@@ -229,9 +249,9 @@ switch(job){
         console.log(`${job} Salary is ${salary}`);
         break;
 }
+*/
 
-////////////////////////////////////
-
+/* 2)
 let holiday = 5, money = 0;
 
 console.log(
@@ -247,9 +267,9 @@ console.log(
         ? money = 0
     : money = 0
 );
+*/
 
-////////////////////////////////////
-
+/* 3)
 let day = "   Tuesday  ".trim();
 // You Need To Remove Spaces And Make First Letter Capital => Friday
 
@@ -276,5 +296,5 @@ switch(day) {
     default:
         console.log("Its Not A Valid Day");
 }
+*/
 
- */
