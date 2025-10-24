@@ -48,10 +48,10 @@ console.log(`%%% Assignments Week 8 %%%`);
     function sayHello(theName, theGender) {
         return (
             theGender === 'Male'
-            ? console.log(`Mr/ ${theName}`) 
+            ? console.log(`Hello Mr ${theName}`) 
             : theGender === undefined 
-            ? console.log(theName) 
-            : console.log(`Mrs/ ${theName}`)
+            ? console.log(`Hello ${theName}`) 
+            : console.log(`Hello Miss ${theName}`)
         );
     }
 
