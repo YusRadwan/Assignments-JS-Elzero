@@ -95,6 +95,20 @@ for (start; start < mix.length; start++) {
 
 */
 
+/* 8)
+    let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
+    let index = 0;
+    let counter = 0;
+
+    for(counter; counter < friends.length; counter++) {
+        while (friends[counter][index] !== 'A' && typeof friends[counter] != 'number') {
+            console.log(friends[counter]);
+            break;
+        }
+    }
+*/
+
+
 
 // Task Vedio 
     let myAdmin = ["Ahmed", "Osama", "Sayed", "Stop", "Samera"];
@@ -127,4 +141,3 @@ for (start; start < mix.length; start++) {
         document.writeln(`</div>\n<hr>`);
         counter++;
     }
-        
