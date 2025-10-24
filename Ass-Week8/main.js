@@ -55,7 +55,6 @@ console.log(`%%% Assignments Week 8 %%%`);
         );
     }
 
-
     // Needed Output
     sayHello("Osama", "Male"); // "Hello Mr Osama"
     sayHello("Eman", "Female"); // "Hello Miss Eman"
