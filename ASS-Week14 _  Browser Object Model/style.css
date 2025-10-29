@@ -1,0 +1,10 @@
+div {
+    text-align: center;
+    font-size: 50px;
+    background-color: #ff5722;
+    padding: 6px 10px 8px;
+    margin-right: 5px;
+    border-radius: 6px;
+    color: white;
+    display: inline-block;
+}
