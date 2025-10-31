@@ -19,3 +19,5 @@ Done
    | - Assignments Week 15 _ Local Storage
    | - Assignments Week 16 _ Destructuring
    | - Assignments Week 17 _ Map And Set
+   | - Assignments Week 18 _ Regular Expression
+   | - Assignments Week 19 _ Object Oriented Programming
