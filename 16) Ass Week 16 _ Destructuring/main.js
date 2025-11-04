@@ -80,12 +80,12 @@ let {
     title: t, 
     developer: d, 
     releases: {
-        [o ='Oath In Felghana'] : [u, j], 
-        [a = 'Ark Of Napishtim'] : {
-            US : u_price, 
-            JAP : j_price
+        [o ='Oath In Felghana']: [u, j], 
+        [a = 'Ark Of Napishtim']: {
+            US: u_price, 
+            JAP: j_price
         }, 
-        Origin :or
+        Origin: or
     }
 } = game;
 
@@ -148,7 +148,6 @@ for (let i = 0; i < myFriends.length + 2; i++) {
                 skills: [h, c]
             },,
         ] = myFriends;
-        console.log()
         console.log(`${title}\n${age}\n${available ? 'Available' : 'Not Available'}\n${c}`);
     }
 // "Osama"

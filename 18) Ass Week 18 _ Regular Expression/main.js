@@ -8,6 +8,7 @@ let url4 = 'https://www.elzero.org';
 let url5 = 'https://www.elzero.org:8080/articles.php?id=100&cat=topics';
 
 let re = /^(https?:\/\/)?([\w.-]+)\.([a-z]{2,})(:\d+)?(\/[\w./-]*)?(\?.*)?$/ig; // Write Your Pattern Here
+
 console.log(url1.match(re));
 console.log(url2.match(re));
 console.log(url3.match(re));
